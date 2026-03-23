@@ -1,0 +1,7 @@
+Algorithm: Markov Decision Process (MDP)
+
+Description:
+A Markov Decision Process is a probabilistic mathematical framework used for modeling decision-making in environments where outcomes are partly random (stochastic) and partly under the control of a decision-maker. An MDP is defined by a set of states, a set of available actions, transition probabilities (the likelihood of moving from one state to another given an action), and rewards (feedback received after making a transition). It relies on the Markov property, meaning the next state depends only on the current state and the chosen action, not on the history of previous states. MDPs form the theoretical foundation for Reinforcement Learning.
+
+Real-World Example:
+Robotic Autonomous Navigation: A robotic vacuum cleaner mapping out and cleaning a living room operates based on an MDP. The "state" is the robot's current location and battery level. "Actions" involve moving forward, turning, or returning to the charging dock. Because the robot may slip or its sensors may be inaccurate, outcomes are probabilistic. The "reward" is positive for cleaning dirt and negative for hitting furniture or running out of battery. The robot learns an optimal policy—what action to take in every possible state—to maximize long-term cleanliness while ensuring it always returns to its base in time.

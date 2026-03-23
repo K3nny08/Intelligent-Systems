@@ -1,0 +1,7 @@
+Algorithm: Particle Swarm Optimization (PSO)
+
+Description:
+A computational optimization method called particle swarm optimization draws inspiration from the social behavior of insects, fish schools, and flocks of birds. In order to locate the global optimum, the method starts a population of potential solutions known as "particles" that travel across a multidimensional search space. Each particle's mobility is impacted by both the overall best-known position found by the entire swarm (social learning) and its own best-known local position (cognitive learning). The swarm cooperatively approaches the ideal solution by iteratively updating the particle's position and velocity mathematically.
+
+Real-World Example:
+Power Grid Load Balancing: In a smart grid system, PSO is utilized to effectively distribute power. The swarm is a representation of several power distribution arrangements from several generators to consumers. In order to identify the optimal configuration that minimizes power loss and generation costs while satisfying consumer demand, particles "fly" through the search space and communicate with one another. They swiftly adjust when real-time node demands change.

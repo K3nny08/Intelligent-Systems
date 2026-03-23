@@ -1,0 +1,2 @@
+A genetic algorithm is a search method that imitates the process of natural selection in order to find excellent answers to challenging issues. The computer "breeds" a solution across many generations rather than verifying every potential response.
+Similar to a "Trial and Error," except it improves by learning from its errors.
